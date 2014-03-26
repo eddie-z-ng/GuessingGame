@@ -1,0 +1,142 @@
+/******************
+	BUTTONS
+*******************/ 
+
+/* Make block to allow centering */
+#game-control > button {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+#guess-button {
+	color: inherit;
+	font-size: 1.65em;
+	background: transparent;
+	position: absolute;
+	right: 15px;
+	top: 3px;
+}
+
+#game-control > button .glyphicon {
+	top: 3px;
+}
+
+/******************
+	USER INPUTS
+*******************/ 
+
+#guess-form {
+	display: block;
+	height: 50px;
+	margin-bottom: 5px;
+}
+
+#guess-input {
+	float: left;
+	padding: 24px 12px;
+}
+
+/******************
+	GAME STATUS
+*******************/ 
+#game-status {
+	text-align: center;
+	font-size: 8em;
+	color: white;
+}
+
+#icon-status .glyphicon {
+	top: 16px;
+}
+
+/******************
+	GAME HISTORY
+*******************/ 
+
+#game-info {
+	text-align: center;
+}
+
+#game-info span {
+	margin-bottom: 5px;
+}
+
+#guess-history {
+	list-style: none;
+	padding: 0;
+}
+
+#guess-history > li {
+	font-size: 1.1rem;
+	margin-bottom: 2px;
+	border-radius: 4px;
+	color: white;
+}
+
+/******************
+	COLORS
+*******************/ 
+
+body, .color-animate {
+
+	background-color: salmon;
+}
+
+.game-title {
+	padding: 1px;
+
+	color: azure;
+	background-color: royalblue;
+}
+
+.begin-guess {
+	background-color: lightslategray;
+	border-color: ivory;
+}
+
+.win-guess {
+	background-color: #bada55;
+	border-color: lawngreen;
+}
+
+.lose-guess {
+	background-color: rgb(228, 236, 33);
+	border-color: rgb(250, 246, 149);
+}
+
+.hint-guess {
+	background-color: darkslategray;
+	border-color: dimgray;
+}
+
+.burning-hot-guess {
+	background-color: red;
+	border-color: #E7413C;
+}
+
+.hot-guess {
+	background-color: #d9534f;
+	border-color: #d43f3a;
+}
+
+.warm-guess {
+	background-color: #f0ad4e;
+	border-color: #eea236;
+}
+
+.cold-guess {
+	background-color: #5bc0de;
+	border-color: #46b8da;
+}
+
+.ice-cold-guess {
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+
+.latest-guess {
+	font-size: 1.8rem !important;
+	border-width: 2px;
+	border-style: solid;
+} 
